@@ -9,14 +9,14 @@
 <hr>
 <h2 style="text-align:center;font-style:italic;font-size:2em"><i>Preview :</i></h2>
   
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   
 ## _Pendulum :_
   
   - [![SampleGif](./src/gif/1.gif)](https://github.com/nazar-ansari/Css-Anims/blob/main/src/first/index.html)
   
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   
 ## _Coding_Symbol :_
