@@ -100,3 +100,58 @@ body {
 .timber.strecher:nth-child(8) {
   transform: translate3d(-50%, calc(-50% - 1em), -1.5em);
 }
+/*                                                                  String Hooks Properties For Timber */
+.timber.strecher .dots::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+      circle at 76% 50%,
+      #777 0px,
+      rgba(119, 119, 119, 0) 2px
+    ),
+    radial-gradient(circle at 63% 50%, #777 0px, rgba(119, 119, 119, 0) 2px),
+    radial-gradient(circle at 50% 50%, #777 0px, rgba(119, 119, 119, 0) 2px),
+    radial-gradient(circle at 37% 50%, #777 0px, rgba(119, 119, 119, 0) 2px),
+    radial-gradient(circle at 24% 50%, #777 0px, rgba(119, 119, 119, 0) 2px);
+}
+.timber > * {
+  position: absolute;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.4666666667) inset;
+  background-size: 5em;
+  background-image: url("https://assets.codepen.io/1948355/wood04.png");
+}
+.timber > .top-face {
+  width: var(--width);
+  height: var(--depth);
+  transform: translateY(-50%) rotateX(90deg);
+  background-color: #6f463f;
+}
+.timber > .left-face {
+  width: var(--depth);
+  height: var(--height);
+  transform: translateX(-50%) rotateY(90deg);
+  background-color: #5f3c35;
+}
+.timber > .right-face {
+  width: var(--depth);
+  height: var(--height);
+  right: 0;
+  transform: translateX(50%) rotateY(90deg);
+  background-color: #1d1211;
+}
+.timber > .front-face {
+  width: var(--width);
+  height: var(--height);
+  transform: translateZ(calc(var(--depth) / 2));
+  background-color: #3e2723;
+}
+.timber > .back-face {
+  width: var(--width);
+  height: var(--height);
+  transform: translateZ(calc(var(--depth) / -2));
+  background-color: #3e2723;
+}
