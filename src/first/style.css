@@ -155,3 +155,62 @@ body {
   transform: translateZ(calc(var(--depth) / -2));
   background-color: #3e2723;
 }
+/*                                                          Ball Section Properties to align in respective positions  */
+.ballPlate {
+  position: absolute;
+  top: -1em;
+  width: 2em;
+  height: 3em;
+  transform: translate(-50%, 0%) rotateY(90deg);
+  transform-origin: top;
+}
+.ballPlate:nth-child(9) {
+  left: -2.05em;
+  animation: ballPlateStart 3s infinite;
+}
+.ballPlate:nth-child(9) .ballContent {
+  animation: ballWrapperStart 3s infinite;
+}
+.ballPlate:nth-child(9) .ball {
+  background-position-y: 0%;
+}
+.ballPlate:nth-child(10) {
+  left: -1.025em;
+  animation: ballPlateSwing 3s linear infinite;
+}
+.ballPlate:nth-child(10) .ballContent {
+  animation: ballWrapperSwing 3s linear infinite;
+}
+.ballPlate:nth-child(10) .ball {
+  background-position-y: 25%;
+}
+.ballPlate:nth-child(11) {
+  left: 0;
+  animation: ballPlateSwing 3s linear infinite;
+}
+.ballPlate:nth-child(11) .ballContent {
+  animation: ballWrapperSwing 3s linear infinite;
+}
+.ballPlate:nth-child(11) .ball {
+  background-position-y: 50%;
+}
+.ballPlate:nth-child(12) {
+  left: 1.025em;
+  animation: ballPlateSwing 3s linear infinite;
+}
+.ballPlate:nth-child(12) .ballContent {
+  animation: ballWrapperSwing 3s linear infinite;
+}
+.ballPlate:nth-child(12) .ball {
+  background-position-y: 75%;
+}
+.ballPlate:nth-child(13) {
+  left: 2.05em;
+  animation: ballPlateEnd 3s infinite;
+}
+.ballPlate:nth-child(13) .ballContent {
+  animation: ballWrapperEnd 3s infinite;
+}
+.ballPlate:nth-child(13) .ball {
+  background-position-y: 100%;
+}
