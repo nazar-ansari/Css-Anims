@@ -54,3 +54,49 @@ body {
   background-color: #000;
   filter: blur(0.3em);
 }
+/*                                                        Pendulum's Basic Properties */
+.timber {
+  --width: 0;
+  --height: 0;
+  --depth: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--width);
+  height: var(--height);
+  transform: translate(-50%, -50%);
+}
+.timber.base {
+  --width: 8em;
+  --height: 1em;
+  --depth: 4em;
+  transform: translate(-50%, calc(-50% + 2.5em));
+}
+.timber.poll {
+  --width: 0.25em;
+  --height: 3em;
+  --depth: 0.25em;
+}
+.timber.poll:nth-child(3) {
+  transform: translate3d(calc(-50% + 3.5em), calc(-50% + 0.5em), 1.5em);
+}
+.timber.poll:nth-child(4) {
+  transform: translate3d(calc(-50% + 3.5em), calc(-50% + 0.5em), -1.5em);
+}
+.timber.poll:nth-child(5) {
+  transform: translate3d(calc(-50% - 3.5em), calc(-50% + 0.5em), 1.5em);
+}
+.timber.poll:nth-child(6) {
+  transform: translate3d(calc(-50% - 3.5em), calc(-50% + 0.5em), -1.5em);
+}
+.timber.strecher {
+  --width: 8em;
+  --height: 0.25em;
+  --depth: 1em;
+}
+.timber.strecher:nth-child(7) {
+  transform: translate3d(-50%, calc(-50% - 1em), 1.5em);
+}
+.timber.strecher:nth-child(8) {
+  transform: translate3d(-50%, calc(-50% - 1em), -1.5em);
+}
