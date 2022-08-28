@@ -14,13 +14,13 @@
   
 ## _Pendulum :_
   
-  - [![SampleGif](./src/gif/1.gif)](https://github.com/nazar-ansari/Css-Anims/blob/main/src/first/index.html)
+ [![SampleGif](./src/img/1.png)](https://github.com/nazar-ansari/Css-Anims/blob/main/src/first/index.html)
   
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   
   
 ## _Coding_Symbol :_
-    
-- [![SampleGif](./src/gif/2.gif)](https://github.com/nazar-ansari/Css-Anims/blob/main/src/second/index.html)
+
+[![SampleGif](./src/img/2.png)](https://github.com/nazar-ansari/Css-Anims/blob/main/src/second/index.html)
   
 <hr>
